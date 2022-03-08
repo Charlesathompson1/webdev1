@@ -9,7 +9,7 @@ body {
     text-align: center;
     background: white;
     color: white;
-    font-size: 60px;
+    font-size: 100px;
   }
   .large-text {
     fontsize: 100px;
@@ -58,4 +58,9 @@ body {
     right: 350px;
     bottom: .1px;
   }
-    
+
+    <h1> {style}="font-size:30px">WELCOME LOVE</h1> 
+   <h1> {style}="font-family:verdana">WELCOME LOVE.</h1>
+  <h1> {style} ="color:crimson">Welcome love</h1>
+  }
+   
