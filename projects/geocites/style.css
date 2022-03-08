@@ -7,9 +7,9 @@ body {
   .header {
     padding: -3px;
     text-align: center;
-    background: ;
+    background: white;
     color: white;
-    font-size: 30px;
+    font-size: 60px;
   }
   .large-text {
     fontsize: 100px;
@@ -58,5 +58,4 @@ body {
     right: 350px;
     bottom: .1px;
   }
-    
     
