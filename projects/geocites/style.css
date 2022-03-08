@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://i.pinimg.com/564x/26/54/95/2654951f6c78781591f12be3444c7b1a.jpg");
+    background-repeat: 3;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .crimson{ 
+  color: crimson;
+  }
+  .large-text {
+    fontsize: 100px;
+  }
+  
+  img{
+    width:30%
+  }
+  .leftgirl {
+    position: absolute;
+    right:10px;
+    bottom:300px;
+  }
+  .right-girl {
+    position: absolute;
+    left: 50px;
+    bottom: 300px;
+  }
+  .butterflies {
+    position: absolute;
+    left: 335px;
+    bottom: 300px;
+  }
+  .crimson font-family {
+   font-family: staatliches;
+  }
+  .flowers {
+    position: absolute;
+    left: 300px;
+    bottom: 600px;
+  }
+  
+  .ytbby {
+    position: absolute;
+    right: 50px;
+    bottom: .1px;
+  }
+  .yt2 {
+    position: absolute;
+    left: 50px;
+    bottom: .1px;
+  }
+    
+    .kitty {
+    position: absolute;
+    right: 350px;
+    bottom: .1px;
+  }
+  
