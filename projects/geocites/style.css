@@ -4,8 +4,12 @@ body {
     background-position: center;
     background-attachment: fixed;
   }
-  .crimson{ 
-  color: crimson;
+  .header {
+    padding: -3px;
+    text-align: center;
+    background: ;
+    color: white;
+    font-size: 30px;
   }
   .large-text {
     fontsize: 100px;
@@ -54,4 +58,5 @@ body {
     right: 350px;
     bottom: .1px;
   }
-  
+    
+    
