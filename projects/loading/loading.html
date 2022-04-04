@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <style>
+        .loading{ 
+            display: flex;
+            justify-content: center;
+        }
+
+        .loading::after {
+            content: " ";
+            width: 50px;
+            height: 50px;
+            border: 10px solid rgb(241, 241, 241);
+            border-top-color: rgb(192, 11, 47);
+            border-bottom-color:pink ;
+            border-radius: 50%;
+            animation: loading 1s ease 5ms;
+        }
+        
+        @keyframes loading{ 
+            to{
+                transform: rotate(5turn);
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="./index.html">back</a>
+    <h1>
+         </h1>
+        
+    
+    <div class="loading"></div>
+    <div class="animation-container" id="loading">
+        <div class="box"></div>
+    </div>
+    <style>
+        body {
+          background-image: url('https://i.pinimg.com/564x/95/53/b1/9553b10e60060e3ab7ed1c99828178bb.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style> 
+        
+</body>
+</html>

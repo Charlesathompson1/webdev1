@@ -1,0 +1,50 @@
+<html lang="en">
+    <body>
+        <a href="./index.html">back</a>
+    </body>
+    <style>
+        .loading{ 
+            display: flex;
+            justify-content: center;
+        }
+
+        .loading::after {
+            content: " ";
+            width: 5px;
+            height: 5px;
+            border: 20px solid rgb(241, 241, 241);
+            border-top-color: rgba(73, 9, 22, 0.479);
+            border-radius: 50%;
+            animation: loading 3s linear infinite;
+        }
+        
+        @keyframes loading{ 
+            to{
+                transform: rotate(3turn);
+            }
+        }
+    </style>
+     <div class="loading"></div>
+     <div class="animation-container" id="loading">
+         <div class="box"></div>
+     </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Waiting..</title>
+   
+    <style>
+        
+        body {
+          background-image: url(https://i.pinimg.com/564x/fa/05/04/fa0504e7c53dba426ebd52d777583e21.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+    
+ 
+      
+
+
+</html>
